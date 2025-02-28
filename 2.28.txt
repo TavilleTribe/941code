@@ -1,0 +1,165 @@
+/*#include <stdio.h>
+
+int main()
+{
+	int a,b;
+	printf("Please input the first number:");
+	scanf("%d",&a);
+	printf("Please input the second number:");
+	scanf("%d",&b);
+	
+	printf("The sum is:%d\n",a+b);
+	return 0;
+}*/
+
+#include <iostream>				//输入输出流
+using namespace std;			//名空间
+
+typedef double ElemType;
+
+int main()
+{
+	ElemType a,b;
+	cout<<"Please input the first number:";
+	cin>>a;
+	cout<<"Please input the second number:";
+	cin>>b;
+	
+	cout<<"The sum is:"<<a+b<<endl;
+	return 0;
+ } 
+
+
+#include <iostream>				//输入输出流
+using namespace std;			//名空间
+
+int main()
+{
+	int a=3;
+	int &b=a;					//变量b是变量a的引用
+	
+	cout<<"a="<<a<<"   b="<<b<<endl;
+	
+	a=5;
+	cout<<"a="<<a<<"   b="<<b<<endl;
+	
+	b=9;	
+	cout<<"a="<<a<<"   b="<<b<<endl;
+	cout<<"a地址="<<&a<<"   b地址="<<&b<<endl;
+	return 0;
+ } 
+
+
+
+#include <iostream>				//输入输出流
+using namespace std;			//名空间
+
+void swap(int x,int y)
+{
+	int temp=x;
+	x=y;
+	y=temp;
+}
+
+int main()
+{
+	int a=3,b=6;
+	cout<<"a="<<a<<"   b="<<b<<endl;
+	
+	swap(a,b);
+	cout<<"a="<<a<<"   b="<<b<<endl;
+	
+	return 0;
+ } 
+//数据未能发生交换
+
+#include <iostream>				//输入输出流
+using namespace std;			//名空间
+
+void swap(int &x,int &y)
+{
+	int temp=x;
+	x=y;
+	y=temp;
+}
+
+int main()
+{
+	int a=3,b=6;
+	cout<<"a="<<a<<"   b="<<b<<endl;
+	
+	swap(a,b);					// &x=a,&y=b;
+	cout<<"a="<<a<<"   b="<<b<<endl;
+	
+	return 0;
+ } //数据发生交换
+
+
+#include <iostream>				//输入输出流
+using namespace std;			//名空间
+
+typedef struct
+{
+	double real;				//复数的实部
+	double imag;				//复数的虚部 
+} Complex;
+
+//初始化复数，即为复数分配存储空间
+void InitComplex(Complex *&z)
+{
+	z=new Complex;			//z=(Complex *)malloc(sizeof(Complex));
+} 
+
+//构造复数
+void AssignComplex(Complex *&z,double v1,double v2) 				//引用型形参 
+{
+	z->real=v1;
+	z->imag=v2;
+}
+
+//输出复数
+void DispComplex(Complex *z) 
+{
+	if(z->imag>0)
+		cout<<z->real<<"+"<<z->imag<<"i";
+	else
+		cout<<z->real<<z->imag<<"i";
+}//需要对输出函数进一步优化，能正确输出  6，-i, 0,8+i......
+
+//求复数的和
+void AddComplex(Complex *v1,Complex *v2,Complex *&s) 
+{
+	s->real=v1->real+v2->real;
+	s->imag=v1->imag+v2->imag;
+}
+
+//销毁复数
+void DestroyComplex(Complex *&z)
+{
+	delete z;
+} 
+
+int main()
+{
+	double a,b;
+	cout<<"请输入第一个复数的实部:";cin>>a;
+	cout<<"请输入第一个复数的虚部:";cin>>b;
+	
+	Complex *z1;InitComplex(z1);
+	AssignComplex(z1,a,b);
+	cout<<"第一个复数为:";DispComplex(z1);cout<<endl<<endl;
+	
+	double c,d;
+	cout<<"请输入第二个复数的实部:";cin>>c;
+	cout<<"请输入第二个复数的虚部:";cin>>d;
+	
+	Complex *z2;InitComplex(z2);
+	AssignComplex(z2,c,d);
+	cout<<"第二个复数为:";DispComplex(z2);cout<<endl<<endl;
+	
+	Complex *sum;InitComplex(sum);
+	AddComplex(z1,z2,sum);
+	cout<<"复数的和为:";DispComplex(sum);cout<<endl<<endl;
+	
+	return 0;
+ } 
