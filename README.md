@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://github.com/shaojintian/Best_README_template/">
-    <img src="images/avater.jpg" alt="Logo" width="100" height="100">
+    <img src="images/avater.jpg" alt="Logo" width="120" height="120">
   </a>
 
   <h3 align="center">"完美的"代码吗?有点意思哈</h3>
