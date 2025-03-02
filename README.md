@@ -1,8 +1,8 @@
 
 
-# ProjectName
+# 周原小可爱的任务罢了
 
-ProjectName and Description
+周原小可爱喜欢给哥们布置作业 ———— 这里是一些题解
 
 <!-- PROJECT SHIELDS -->
 
@@ -21,18 +21,18 @@ ProjectName and Description
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">"完美的"README模板</h3>
+  <h3 align="center">"完美的"代码吗?有点意思哈</h3>
   <p align="center">
-    一个"完美的"README模板去快速开始你的项目！
+    "完美的"代码才能赢得蓝桥杯！
     <br />
-    <a href="https://github.com/shaojintian/Best_README_template"><strong>探索本项目的文档 »</strong></a>
+    <a href="https://github.com/TavilleTribe/941code"><strong>探索本项目的文档 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/shaojintian/Best_README_template">查看Demo</a>
+    <a href="https://github.com/TavilleTribe/941code">查看Demo</a>
     ·
-    <a href="https://github.com/shaojintian/Best_README_template/issues">报告Bug</a>
+    <a href="https://github.com/TavilleTribe/941code/issues">报告Bug</a>
     ·
-    <a href="https://github.com/shaojintian/Best_README_template/issues">提出新特性</a>
+    <a href="https://github.com/TavilleTribe/941code/issues">提出新特性</a>
   </p>
 
 </p>
@@ -57,22 +57,23 @@ ProjectName and Description
 
 ### 上手指南
 
-请将所有链接中的“shaojintian/Best_README_template”改为“your_github_name/your_repository”
+没什么好说的，看看就行了，自己还是得手搓一些的
 
 
 
 ###### 开发前的配置要求
 
-1. xxxxx x.x.x
-2. xxxxx x.x.x
+1.周原小可爱.cpp
+2.周原小可爱.h
 
 ###### **安装步骤**
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. 把代码clone到本地
+2. 亲吻周原小可爱
+3. 使用代码
 
 ```sh
-git clone https://github.com/shaojintian/Best_README_template.git
+git clone https://github.com/TavilleTribe/941code.git
 ```
 
 ### 文件目录说明
@@ -80,21 +81,11 @@ eg:
 
 ```
 filetree 
-├── ARCHITECTURE.md
-├── LICENSE.txt
 ├── README.md
-├── /account/
+├── LICENSE.txt
+├── /images/
 ├── /bbs/
-├── /docs/
-│  ├── /rules/
-│  │  ├── backend.txt
-│  │  └── frontend.txt
-├── manage.py
-├── /oa/
-├── /static/
-├── /templates/
-├── useless.md
-└── /util/
+└── /projects/
 
 ```
 
@@ -104,7 +95,7 @@ filetree
 
 ### 开发的架构 
 
-请阅读[ARCHITECTURE.md](https://github.com/shaojintian/Best_README_template/blob/master/ARCHITECTURE.md) 查阅为该项目的架构。
+请阅读[ARCHITECTURE.md](https://github.com/TavilleTribe/941code/ARCHITECTURE.md) 查阅为该项目的架构。
 
 ### 部署
 
@@ -112,13 +103,11 @@ filetree
 
 ### 使用到的框架
 
-- [xxxxxxx](https://getbootstrap.com)
-- [xxxxxxx](https://jquery.com)
-- [xxxxxxx](https://laravel.com)
+周原小可爱
 
 ### 贡献者
 
-请阅读**CONTRIBUTING.md** 查阅为该项目做出贡献的开发者。
+周原小可爱
 
 #### 如何参与开源项目
 
@@ -139,40 +128,33 @@ filetree
 
 ### 作者
 
-xxx@xxxx
+1907477027@qq.com
 
-知乎:xxxx  &ensp; qq:xxxxxx    
+qq:1907477027    
 
  *您也可以在贡献者名单中参看所有参与该项目的开发者。*
 
 ### 版权说明
 
-该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt)
+该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/TavilleTribe/941code/LICENSE.txt)
 
 ### 鸣谢
 
 
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Img Shields](https://shields.io)
-- [Choose an Open Source License](https://choosealicense.com)
 - [GitHub Pages](https://pages.github.com)
-- [Animate.css](https://daneden.github.io/animate.css)
-- [xxxxxxxxxxxxxx](https://connoratherton.com/loaders)
 
 <!-- links -->
-[your-project-path]:shaojintian/Best_README_template
-[contributors-shield]: https://img.shields.io/github/contributors/shaojintian/Best_README_template.svg?style=flat-square
-[contributors-url]: https://github.com/shaojintian/Best_README_template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/shaojintian/Best_README_template.svg?style=flat-square
-[forks-url]: https://github.com/shaojintian/Best_README_template/network/members
-[stars-shield]: https://img.shields.io/github/stars/shaojintian/Best_README_template.svg?style=flat-square
+[your-project-path]: github.com/TavilleTribe/941code
+[contributors-shield]: https://img.shields.io/github/contributors/TavilleTribe/941code.svg?style=flat-square
+[contributors-url]: https://github.com/TavilleTribe/941code/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/TavilleTribe/941code.svg?style=flat-square
+[forks-url]: https://github.com/TavilleTribe/941code/network/members
+[stars-shield]: https://img.shields.io/github/stars/TavilleTribe/941code.svg?style=flat-square
 [stars-url]: https://github.com/shaojintian/Best_README_template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg
-[license-shield]: https://img.shields.io/github/license/shaojintian/Best_README_template.svg?style=flat-square
-[license-url]: https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/shaojintian
+[issues-shield]: https://img.shields.io/github/issues/TavilleTribe/941code.svg?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/TavilleTribe/941code.svg
+[license-shield]: https://img.shields.io/github/license/TavilleTribe/941code.svg?style=flat-square
+[license-url]: https://github.com/TavilleTribe/941code/LICENSE.txt
 
 
 
