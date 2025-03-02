@@ -83,7 +83,6 @@ filetree
 ├── README.md
 ├── LICENSE.txt
 ├── /images/
-├── /bbs/
 └── /projects/
 
 ```
