@@ -11,7 +11,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -38,7 +37,7 @@
 </p>
 
 
- 本篇README.md面向开发者
+ 本项目面对广师大各位，主要作为个人代码学习库，欢迎交流
  
 ## 目录
 
@@ -103,11 +102,12 @@ filetree
 
 ### 使用到的框架
 
-周原小可爱
+余华
 
 ### 贡献者
 
 周原小可爱
+小何
 
 #### 如何参与开源项目
 
@@ -128,9 +128,9 @@ filetree
 
 ### 作者
 
-1907477027@qq.com
-
-qq:1907477027    
+Interface39
+周原小可爱
+小何
 
  *您也可以在贡献者名单中参看所有参与该项目的开发者。*
 
