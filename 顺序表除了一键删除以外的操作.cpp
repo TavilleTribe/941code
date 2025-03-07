@@ -1,6 +1,8 @@
 #include <iostream>
 #define MaxSize 100
 
+//ä½œä¸šäºŒ
+
 using namespace std;
 typedef char ElemType;
 typedef struct SqList {
@@ -96,17 +98,17 @@ int main() {
 	DispList(e);
 	cout<<endl;
 	cout<<GetLen(e)<<endl;
-	cout<<"ÊÇ·ñÎª¿Õ: "<<IsEmpty(e)<<endl;
-	cout<<"µÚ3¸öÔªËØ: "<<GetElem(temp,e,3)<<endl;
-	cout<<"ÔªËØAµÄÎ»ÖÃÎª: "<<IndexOf('A',e)<<endl<<endl;
+	cout<<"æ˜¯å¦ä¸ºç©º: "<<IsEmpty(e)<<endl;
+	cout<<"ç¬¬3ä¸ªå…ƒç´ : "<<GetElem(temp,e,3)<<endl;
+	cout<<"å…ƒç´ Açš„ä½ç½®ä¸º: "<<IndexOf('A',e)<<endl<<endl;
 	
 	InsertList(e,4,'f');
-	cout<<"²åÈëºó"<<endl; 
+	cout<<"æ’å…¥åŽ"<<endl; 
 	DispList(e);
 	cout<<endl;
 	
 	DeleteElem(e,3);
-	cout<<"É¾³ýºó"<<endl;
+	cout<<"åˆ é™¤åŽ"<<endl;
 	DispList(e);
 	cout<<endl;
 	
